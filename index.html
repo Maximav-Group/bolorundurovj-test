@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="portfolio">
+
+<head>
+  <meta charset="utf-8">
+  <title>MyPortfolio</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.ico" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Raleway:400,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <!-- Angular Import-->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+  <script src="app.js"></script>
+
+</head>
+
+<body>
+
+  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+    <div class="container py-2 py-md-5">
+      <div class="row align-items-start">
+        <div class="col-md-2">
+          <ul class="custom-menu">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="#/about">About Me</a></li>
+            <li><a href="#/services">Services</a></li>
+            <li><a href="#/works">Works</a></li>
+            <li><a href="#/contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 d-none d-md-block  mr-auto">
+          <div class="gem d-flex">
+            <span class="icofont-gem text-white mt-2 mr-3"></span>
+            <div>
+              <p><em>I design, build & sometimes rescue applications.
+
+                Have a project, idea or problem you'd like to discuss? <br> <a href="mailto:bolorundurovb@gmail.com">t.co/v82jsk</a></em></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-none d-md-block">
+          <h3>Hire Me</h3>
+          <p style="font-size:x-small;">So are you looking for a professional, communicative & punctual software engineer with extensive web development skills?</p>
+
+            <p style="font-size:x-small;">If you have an application you are interested in developing, a problem that needs solving or a project that needs rescuing, I'd love to help you with it.
+
+            Send me an email: <br> <a href="mailto:bolorundurovb@gmail.com" ac>bolorundurovb@gmail.com</a></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <nav class="navbar navbar-light custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">MyPortfolio.</a>
+
+      <a href="#" class="burger" data-toggle="collapse" data-target="#main-navbar">
+        <span></span>
+      </a>
+
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <div ng-controller="HomeCtrl">
+      <div ng-view="">
+
+      </div>
+    </div>
+
+  </main>
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="mb-1">&copy; 2020 Maximav Group. All Rights Reserved</p>
+          <div class="credits">
+
+            Designed by <a href="https://bolorundurovb.me">VJB</a>
+          </div>
+        </div>
+        <div class="col-sm-6 social text-md-right">
+          <a href="https://twitter.com/bolorundurovb" target="_blank"><span class="icofont-twitter"></span></a>
+          <a href="https://instagram.com/bolorundurovb" target="_blank"><span class="icofont-instagram"></span></a>
+          <a href="https://github.com/bolorundurovj" target="_blank"><span class="icofont-github"></span></a>
+          <a href="https://facebook.com/" target="_blank"><span class="icofont-facebook"></span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/jquery/jquery-migrate.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/easing/easing.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
